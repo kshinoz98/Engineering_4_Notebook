@@ -57,6 +57,12 @@ Your readme will have various images and gifs on it. Upload a test image and tes
 
 ### Test Link
 
+[Hyperlink text](http://www.google.com)      
+
 ### Test Image
 
+![Picture Name Here](images/images.jpg)  
+
 ### Test GIF
+
+![Picture Name Here](images/200w.gif)  
