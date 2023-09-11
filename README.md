@@ -44,11 +44,11 @@ Use the serial moniter on the pico to count down from 10 to a launch
 
 ### Code
 
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+[Something like this](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/Countdown.py)
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+This assignment was very easy, as it was a repeated loop until the count equals to 0. The hardest part of the assignment was deciding which way was the easiest, which I decided was using a while loop.
 
 &nbsp;
 
@@ -64,7 +64,7 @@ Using a Pi pico and the code from launch pad countdown, blink a light every time
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+![IMG_0892](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/ba515912-fdc7-4d9c-b1be-83612152002d)
 
 ### Code
 
