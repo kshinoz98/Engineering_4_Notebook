@@ -9,7 +9,7 @@ led2.direction = digitalio.Direction.OUTPUT
 
 count = 10                                      #Set the time to 10 seconds
 
-while count > 0:                                #[12-18] Count down and blink red LED if the time is greater than 0
+while count > 0:                              #[12-18] Count down and blink red LED if the time is greater than 0
     print(count)
     redLED.value = True   
     count = count - 1
