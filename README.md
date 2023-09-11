@@ -36,7 +36,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ### Assignment Description
 
-Use the serial moniter on the pico to 
+Use the serial moniter on the pico to count down from 10 to a launch
 
 ### Evidence 
 
@@ -44,13 +44,62 @@ Use the serial moniter on the pico to
 
 ### Code
 
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+[Something like this](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/Countdown.py)
+
+### Reflection
+
+This assignment was very easy, as it was a repeated loop until the count equals to 0. The hardest part of the assignment was deciding which way was the easiest, which I decided was using a while loop.
+
+&nbsp;
+
+## Launch Pad Lights
+
+### Assignment Description
+
+Using a Pi pico and the code from launch pad countdown, blink a light every time it counts down and turn on another light when it launches.
+
+### Evidence 
+
+![ezgif-3-644f7e1271](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/b88b7211-b245-441d-a800-0d9a66ea3640)
+
+### Wiring
+
+![IMG_0892](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/ba515912-fdc7-4d9c-b1be-83612152002d)
+
+### Code
+
+[Something like this](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/Countdown_Launch1.py)
 
 ### Reflection
 
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
 
 &nbsp;
+
+## Launch Pad Lights with Button
+
+### Assignment Description
+
+Using a Pi pico and building the code from the previous assignment, use a button to trigger the countdown, blink a light every time it counts down and turn on another light when it launches.
+
+### Evidence 
+
+
+
+### Wiring
+
+This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+
+### Code
+
+[Something like this](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/Countdown_Launch1.py)
+
+### Reflection
+
+What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+
+&nbsp;
+
 
 ## Onshape_Assignment_Template
 
