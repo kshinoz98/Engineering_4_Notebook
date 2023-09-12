@@ -48,7 +48,7 @@ Use the serial moniter on the pico to count down from 10 to a launch
 
 ### Reflection
 
-This assignment was very easy, as it was a repeated loop until the count equals to 0. The hardest part of the assignment was deciding which way was the easiest, which I decided was using a while loop.
+This assignment was very easy, as it was a repeated loop until the count equals to 0. The hardest part of the assignment was deciding which way to code it was the easiest, which I decided was using a while loop. I had a bit of trouble using VS, specifically getting out of a REPL, but now I know Ctrl + D.
 
 &nbsp;
 
@@ -72,7 +72,7 @@ Using a Pi pico and the code from launch pad countdown, blink a light every time
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+This assignment was easy, but a nice refresher on how to use a LED (220 omh resistor). There was not much difference between this and the last assignment in terms of code, only a few lines of code to set up and turn on and off the lights. I had some trouble with the run button, which seems to have broken since the last assignment.
 
 &nbsp;
 
