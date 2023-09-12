@@ -80,15 +80,15 @@ This assignment was easy, but a nice refresher on how to use a LED (220 omh resi
 
 ### Assignment Description
 
-Using a Pi pico and building the code from the previous assignment, use a button to trigger the countdown, blink a light every time it counts down and turn on another light when it launches.
+Using a Pi pico and building from the code from the previous assignment, use a button to trigger the countdown, blink a light every time it counts down and turn on another light when it launches. I did the additional spicy part that has an abort button as well.
 
 ### Evidence 
 
-
+![ezgif-1-514e74e366](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/19fb9288-165d-4c4d-98ae-45bcbbb879a3)
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+![IMG_0896](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/81968267-8e90-41ae-9ff9-cdb5314449db)
 
 ### Code
 
