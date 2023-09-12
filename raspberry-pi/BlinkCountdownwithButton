@@ -10,7 +10,7 @@ greenLED.direction = digitalio.Direction.OUTPUT
 button.direction = digitalio.Direction.INPUT
 button.pull = digitalio.Pull.UP
 
-count = 0                                      #Set the time to 10 seconds
+count = 0                  
 
 while True:
     if button.value == False:                  #[16-17] If the button is pressed, start the countdown
