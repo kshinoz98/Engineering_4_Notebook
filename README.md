@@ -24,7 +24,7 @@ This may not be applicable to all assignments. Anything where you wire something
 
 ### Code
 
-[Something like this](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/Countdown_Launch1.py)
+[Something like this]()
 
 ### Reflection
 
@@ -68,7 +68,7 @@ Using a Pi pico and the code from launch pad countdown, blink a light every time
 
 ### Code
 
-[Something like this](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/Countdown_Launch1.py)
+[Link to code](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/Blink%26Countdown)
 
 ### Reflection
 
