@@ -92,11 +92,11 @@ Using a Pi pico and building from the code from the previous assignment, use a b
 
 ### Code
 
-[Something like this](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/Countdown_Launch1.py)
+[Something like this](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/BlinkCountdownwithButton)
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+This assignment was 
 
 &nbsp;
 
