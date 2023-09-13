@@ -92,11 +92,35 @@ Using a Pi pico and building from the code from the previous assignment, use a b
 
 ### Code
 
-[Something like this](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/BlinkCountdownwithButton)
+[Link to code](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/BlinkCountdownwithButton)
 
 ### Reflection
 
-This assignment was 
+This assignment was not very hard, as wiring and coding a button is not too difficult. The only usually hard part is remembering to set up a button, and that was given to us in the assignment. I did have a slight problem with pull.UP vs pull.DOWN (I switched them and the button was always on) but I fixed that by flipping the logic. 
+
+&nbsp;
+
+## Launch Pad Lights with Button and Servo 
+
+### Assignment Description
+
+Using a Pi pico and building from the code from the previous assignment, use a button to trigger the countdown, blink a light every time it counts down and turn on another light when it launches. 
+
+### Evidence 
+
+![ezgif-1-514e74e366](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/19fb9288-165d-4c4d-98ae-45bcbbb879a3)
+
+### Wiring
+
+![IMG_0896](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/81968267-8e90-41ae-9ff9-cdb5314449db)
+
+### Code
+
+[Link to code](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/BlinkCountdownwithButton)
+
+### Reflection
+
+This assignment was not very hard, as wiring and coding a button is not too difficult. The only usually hard part is remembering to set up a button, and that was given to us in the assignment. I did have a slight problem with pull.UP vs pull.DOWN (I switched them and the button was always on) but I fixed that by flipping the logic. 
 
 &nbsp;
 
