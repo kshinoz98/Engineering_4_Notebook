@@ -104,23 +104,23 @@ This assignment was not very hard, as wiring and coding a button is not too diff
 
 ### Assignment Description
 
-Using a Pi pico and building from the code from the previous assignment, use a button to trigger the countdown, blink a light every time it counts down and turn on another light when it launches. 
+Using a Pi pico and building from the code from the previous assignment, use a button to trigger the countdown, blink a light every time it counts down and turn on another light when it launches. After 7 seconds, start moving the servo slowly untill it launches.
 
 ### Evidence 
 
-![ezgif-1-514e74e366](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/19fb9288-165d-4c4d-98ae-45bcbbb879a3)
+![ezgif-5-4ddbf5f32e](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/b993184b-4840-4029-a413-fdee0397bdde)
 
 ### Wiring
 
-![IMG_0896](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/81968267-8e90-41ae-9ff9-cdb5314449db)
+![IMG_0900](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/20d9c779-b66b-46be-bb21-881f0ebe155e)
 
 ### Code
 
-[Link to code](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/BlinkCountdownwithButton)
+[Link to code](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/BlinkCountButtonServo.py)
 
 ### Reflection
 
-This assignment was not very hard, as wiring and coding a button is not too difficult. The only usually hard part is remembering to set up a button, and that was given to us in the assignment. I did have a slight problem with pull.UP vs pull.DOWN (I switched them and the button was always on) but I fixed that by flipping the logic. 
+This assignment was much harder than the previous assignments. It required a lot more indepth code logic, specifically a for loop, which I had never worked with before. I needed Elias to explain how to repeat a line of code 10 times, because Mr. Miller got mad at me copy and pasting the same line of code 10 times. Aside from that, it was just adding another while loop to my logic to run when the time was less than 3.
 
 &nbsp;
 
