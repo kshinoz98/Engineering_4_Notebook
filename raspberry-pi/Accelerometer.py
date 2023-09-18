@@ -12,4 +12,4 @@ while True:                                 #[11-15] Print necessary aspects of 
     print(f"x={mpu.acceleration[0]}.")          
     print(f"y={mpu.acceleration[1]}.")
     print(f"z={mpu.acceleration[2]}.\n")
-    time.sleep(.2   5)
+    time.sleep(.25)
