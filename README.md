@@ -124,6 +124,31 @@ This assignment was much harder than the previous assignments. It required a lot
 
 &nbsp;
 
+## Accelerometer
+
+### Assignment Description
+
+Find the orientation of a Pico by using an accelerometer and reading the acceration due to gravity.
+
+### Evidence 
+
+![ezgif-5-b68dc04efc](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/a351c4f9-7247-4c90-8a86-927c183805ff)
+
+### Wiring
+
+![IMG_0902](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/119f78eb-c848-4b0d-8edc-1d7394bee741)
+
+### Code
+
+[Link to code](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/Accelerometer.py)
+
+### Reflection
+
+This assignment was actually very neat. The idea of finding position based on acceleration due to gravity is very cool, and the accelerometer is very easy to use. 
+
+&nbsp;
+
+
 
 ## Onshape_Assignment_Template
 
