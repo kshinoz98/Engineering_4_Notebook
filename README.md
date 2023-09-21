@@ -128,7 +128,7 @@ This assignment was much harder than the previous assignments. It required a lot
 
 ### Assignment Description
 
-Find the orientation of a Pico by using an accelerometer and reading the acceration due to gravity.
+Find the orientation of a Pico by using an accelerometer and reading the acceleration due to gravity.
 
 ### Evidence 
 
@@ -144,7 +144,7 @@ Find the orientation of a Pico by using an accelerometer and reading the accerat
 
 ### Reflection
 
-This assignment was actually very neat. The idea of finding position based on acceleration due to gravity is very cool, and the accelerometer is very easy to use. 
+Acceleration 
 
 &nbsp;
 
