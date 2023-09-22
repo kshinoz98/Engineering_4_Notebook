@@ -144,7 +144,7 @@ Find the orientation of a Pico by using an accelerometer and reading the acceler
 
 ### Reflection
 
-Acceleration 
+[I2C](https://www.geeksforgeeks.org/i2c-communication-protocol/) devices are very interesting. Using only two pins, it is possible to communicate with multiple devices, which reduces the complexity of wiring by a factor of how many devices are attached. While this feature is not used in this assignment, I found it really cool when I found out about it, enough to talk about it in the reflection. Looking back on it, I don't think I would be able to figure out the setup code if I was not given it, as I still do not know what the busio does. Also, [F strings](https://www.freecodecamp.org/news/python-f-strings-tutorial-how-to-use-f-strings-for-string-formatting/) are very strange, but Elias helped me out with them, so I think I know enough to use them in the future.
 
 &nbsp;
 
