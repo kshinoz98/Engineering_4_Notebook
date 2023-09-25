@@ -172,6 +172,30 @@ Find the orientation of a Pico by using an accelerometer and reading the acceler
 
 &nbsp;
 
+## Accelerometer with LED and Battery
+
+### Assignment Description
+
+Find the orientation of a Pico by using an accelerometer and reading the acceleration due to gravity, turning on a light if the pico is tipped 90 degrees, all powered by battery
+
+### Evidence 
+
+![ezgif-2-23fbeb520b](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/b4a28f7b-09fa-417d-8c4d-5da6ca1e75d3)
+
+### Wiring
+
+![IMG_20230925_103003](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/03de6a68-97df-404b-8b34-931023a8fed5)
+
+### Code
+
+[Link to code](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/AccelerometerwithLED.py)
+
+### Reflection
+
+This application of acceleration due to gravity is very neat, because is not necessary to measure whether the board is tilted, but 
+
+&nbsp;
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
