@@ -144,11 +144,33 @@ Find the orientation of a Pico by using an accelerometer and reading the acceler
 
 ### Reflection
 
-[I2C](https://www.geeksforgeeks.org/i2c-communication-protocol/) devices are very interesting. Using only two pins, it is possible to communicate with multiple devices, which reduces the complexity of wiring by a factor of how many devices are attached. While this feature is not used in this assignment, I found it really cool when I found out about it, enough to talk about it in the reflection. Looking back on it, I don't think I would be able to figure out the setup code if I was not given it, as I still do not know what the busio does. Also, [F strings](https://www.freecodecamp.org/news/python-f-strings-tutorial-how-to-use-f-strings-for-string-formatting/) are very strange, but Elias helped me out with them, so I think I know enough to use them in the future.
+[I2C](https://www.geeksforgeeks.org/i2c-communication-protocol/) devices are very interesting. Using only two pins, it is possible to communicate with multiple devices, which reduces the complexity of wiring by a factor of how many devices are attached. While this feature is not used in this assignment, I found it really cool when I found out about it, enough to talk about it in the reflection. Also, [F strings](https://www.freecodecamp.org/news/python-f-strings-tutorial-how-to-use-f-strings-for-string-formatting/) are very strange, but Elias helped me out with them, so I think I know enough to use them in the future.
 
 &nbsp;
 
+## Accelerometer
 
+### Assignment Description
+
+Find the orientation of a Pico by using an accelerometer and reading the acceleration due to gravity.
+
+### Evidence 
+
+![ezgif-5-b68dc04efc](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/a351c4f9-7247-4c90-8a86-927c183805ff)
+
+### Wiring
+
+![IMG_0902](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/119f78eb-c848-4b0d-8edc-1d7394bee741)
+
+### Code
+
+[Link to code](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/Accelerometer.py)
+
+### Reflection
+
+[I2C](https://www.geeksforgeeks.org/i2c-communication-protocol/) devices are very interesting. Using only two pins, it is possible to communicate with multiple devices, which reduces the complexity of wiring by a factor of how many devices are attached. While this feature is not used in this assignment, I found it really cool when I found out about it, enough to talk about it in the reflection. Looking back on it, I don't think I would be able to figure out the setup code if I was not given it, as I still do not know what the busio does. Also, [F strings](https://www.freecodecamp.org/news/python-f-strings-tutorial-how-to-use-f-strings-for-string-formatting/) are very strange, but Elias helped me out with them, so I think I know enough to use them in the future.
+
+&nbsp;
 
 ## Onshape_Assignment_Template
 
