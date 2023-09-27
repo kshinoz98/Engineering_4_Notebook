@@ -176,6 +176,28 @@ This application of acceleration due to gravity is very neat, because it is not 
 
 &nbsp;
 
+## Accelerometer with OLED, LED and Battery
+
+### Assignment Description
+
+Find the orientation of a Pico by using an accelerometer and reading the acceleration due to gravity, print it on an OLED, turning on a light if the pico is tipped 90 degrees, all powered by battery
+
+### Evidence 
+
+
+### Wiring
+
+
+
+### Code
+
+[Link to code](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/AccelerationLedwithOLED.py)
+
+### Reflection
+
+I think that everybody had problems with finding their i2c devices. I still don't know exactly what makes it so hard to do (something to do with the pins being in use?) but the fix for it is simple, just unplug the board, and plug it back in. The other hard thing about using the OLED is the splash, which I don't totally understand(but [here's](https://learn.adafruit.com/adafruit-oled-featherwing/python-usage) a site that somewhat explains it). Other than those things, I was really impressed with the OLED board, it has such a high resolution, and the i2c wiring makes it fast to wire.
+
+&nbsp;
 
 
 ## Onshape_Assignment_Template
