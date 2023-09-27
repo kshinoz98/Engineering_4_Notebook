@@ -3,32 +3,12 @@
 &nbsp;
 
 ## Table of Contents
-* [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
-* [Onshape_Assignment_Template](#onshape_assignment_template)
-
-&nbsp;
-
-## Raspberry_Pi_Assignment_Template
-
-### Assignment Description
-
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
-
-### Evidence 
-
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
-
-### Wiring
-
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
-
-### Code
-
-[Something like this]()
-
-### Reflection
-
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+* [Launch Pad Countdown](#Launch_Pad_Countdown)
+* [Launch Pad Lights](#Launch_Pad_Lights)
+* [Launch Pad Lights with Button](#Launch_Pad_Lights_with_Button)
+* [Launch Pad Lights with Button and Servo ](#Launch_Pad_Lights_with_Button_and_Servo)
+* [Accelerometer](#Accelerometer)
+* [Accelerometer with LED and Battery](#Accelerometer_with_LED_and_Battery)
 
 &nbsp;
 
@@ -72,7 +52,7 @@ Using a Pi pico and the code from launch pad countdown, blink a light every time
 
 ### Reflection
 
-This assignment was easy, but a nice refresher on how to use a LED (220 omh resistor). There was not much difference between this and the last assignment in terms of code, only a few lines of code to set up and turn on and off the lights. I had some trouble with the run button, which seems to have broken since the last assignment.
+This was a nice refresher on how to wire a LED (220 omh resistor, 5v to GND). I had some trouble with the run button, which seems to have broken since the last assignment, SO now I use **ctrl + s** to upload the code. There was not much difference between this and the last assignment in terms of code, only a few lines of code to set up and turn on and off the LED lights. I did forget about DigitallInOut, but [this site](https://docs.circuitpython.org/en/latest/shared-bindings/digitalio/index.html) just gave me all the code, which helped a lot.
 
 &nbsp;
 
@@ -96,7 +76,7 @@ Using a Pi pico and building from the code from the previous assignment, use a b
 
 ### Reflection
 
-This assignment was not very hard, as wiring and coding a button is not too difficult. The only usually hard part is remembering to set up a button, and that was given to us in the assignment. I did have a slight problem with pull.UP vs pull.DOWN (I switched them and the button was always on) but I fixed that by flipping the logic. 
+There are so many different ways to do this assignment. I looked at my code, and I looked at Elias' code, and I looked at Graham's code, and they were all radically different(mostly because we used different types of [loops](https://www.simplilearn.com/tutorials/python-tutorial/python-loops)) but they all worked. I choose to use a **while()** loop because that was what I knew the best, and made the button add 10 to the count. I had a slight problem with pull.UP vs pull.DOWN (I switched them and the button was always on) but I fixed that by flipping the logic(after being puzzled for like 10 minutes).
 
 &nbsp;
 
@@ -168,7 +148,7 @@ Find the orientation of a Pico by using an accelerometer and reading the acceler
 
 ### Reflection
 
-[I2C](https://www.geeksforgeeks.org/i2c-communication-protocol/) devices are very interesting. Using only two pins, it is possible to communicate with multiple devices, which reduces the complexity of wiring by a factor of how many devices are attached. While this feature is not used in this assignment, I found it really cool when I found out about it, enough to talk about it in the reflection. Looking back on it, I don't think I would be able to figure out the setup code if I was not given it, as I still do not know what the busio does. Also, [F strings](https://www.freecodecamp.org/news/python-f-strings-tutorial-how-to-use-f-strings-for-string-formatting/) are very strange, but Elias helped me out with them, so I think I know enough to use them in the future.
+[I2C](https://www.geeksforgeeks.org/i2c-communication-protocol/) devices are very interesting. Using only two pins, it is possible to communicate with multiple devices, which reduces the complexity of wiring by a factor of how many devices are attached. While this feature is not used in this assignment, I found it really cool when I found out about it, enough to talk about it in the reflection. Looking back on it, I don't think I would be able to figure out the setup code if I was not given it, as I still do not know what the busio does. Also, [F strings](https://www.freecodecamp.org/news/python-f-strings-tutorial-how-to-use-f-strings-for-string-formatting/) are very strange when you're not used to it, but Elias helped me out with them, so I think I know enough to use them in the future.
 
 &nbsp;
 
@@ -192,9 +172,11 @@ Find the orientation of a Pico by using an accelerometer and reading the acceler
 
 ### Reflection
 
-This application of acceleration due to gravity is very neat, because is not necessary to measure whether the board is tilted, but 
+This application of acceleration due to gravity is very neat, because it is not necessary to measure whether the board is tilted, but whether the z axis acceleration is above a certain level. I had a bit of trouble with that concept, because my original code used the x and y values being higher instead of the z acceleration being lower, but I looked at Matthew's code and realized that wasn't necessary. In the end, this is a bit inaccurate because z acceleration can be caused by just shaking the Pico up and down, but for this application it seems to work. The battery was suprisingly easy to use, but it is a bit scary that if I connect it to the wrong pin, it'll just fry the board.
 
 &nbsp;
+
+
 
 ## Onshape_Assignment_Template
 
