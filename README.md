@@ -188,7 +188,7 @@ Find the orientation of a Pico by using an accelerometer and reading the acceler
 
 ### Wiring
 
-[Accelerometer with LED, OLED and Battery Wiring (1).pdf](https://github.com/kshinoz98/Engineering_4_Notebook/files/12740941/Accelerometer.with.LED.OLED.and.Battery.Wiring.1.pdf)
+![Accelerometer with LED, OLED and Battery Wiring](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/0fa83165-37c6-4a9c-9fd0-f26c2c94ee2a)
 
 ### Code
 
