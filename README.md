@@ -9,6 +9,7 @@
 * [Launch Pad Lights with Button and Servo ](#Launch_Pad_Lights_with_Button_and_Servo)
 * [Accelerometer](#Accelerometer)
 * [Accelerometer with LED and Battery](#Accelerometer_with_LED_and_Battery)
+* [Accelerometer with OLED, LED and Battery](#Accelerometer_with_OLED,_LED_and_Battery)
 
 &nbsp;
 
