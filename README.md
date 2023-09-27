@@ -52,7 +52,7 @@ Using a Pi pico and the code from launch pad countdown, blink a light every time
 
 ### Reflection
 
-This was a nice refresher on how to wire a LED (220 omh resistor, 5v to GND). I had some trouble with the run button, which seems to have broken since the last assignment, SO now I use **ctrl + s** to upload the code. There was not much difference between this and the last assignment in terms of code, only a few lines of code to set up and turn on and off the LED lights. I did forget about DigitallInOut, but [this site](https://docs.circuitpython.org/en/latest/shared-bindings/digitalio/index.html) just gave me all the code, which helped a lot.
+This was a nice refresher on how to wire a LED (220 omh resistor, 5v to GND). I had some trouble with the run button, which seems to have broken since the last assignment, So now I use **Ctrl + s** to upload the code. There was not much difference between this and the last assignment in terms of code, only a few lines of code to set up and turn on and off the LED lights. I did forget about DigitallInOut, but [this site](https://docs.circuitpython.org/en/latest/shared-bindings/digitalio/index.html) just gave me all the code I needed, which helped a lot.
 
 &nbsp;
 
