@@ -210,19 +210,17 @@ For this assignment we were challenged to create a beam that could support the m
 ### Reflection
 For this assignment we began by researching beam theory which taught us about point loads and cantilever beams. Using this knowledge we decided to make an I beam with evenly distributed weight. Because of the rule about angles we decided to use Chamfers on the edges which made the angles the right amount of degrees. We also used a loft so that the weight could be distributed better. We owe a lot of thanks to [this website](https://engineering.stackexchange.com/questions/50258/whats-the-best-shape-solid-of-revolution-for-a-cantilever-beam-to-carry-a-poi) for helping us learn about cantilever beams and showing us that the I beam is the best option.
 
-## FEA Part 3
+## FEA part 3
 ### Description
-For this assignment we continued the challenge to create a beam that could support the most amount of weight that we could. We used FEA to analyze our beam to find out where it would break.
-### Part Link
-[Link](https://cvilleschools.onshape.com/documents/612d3b9286e5a0bfa339152e/w/fc81e668b00e0ee0c54c7765/e/e5900d19b5ba4f1918d7debd)
-### Part Image
+For this part of the assignment we simulated our beam using the onshape simulation to show the deflection and highest stress point.
+### Evidence
 
-![Stresstest bad](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/549a2951-1f91-45a2-b3f9-bea2e6a6c2ee)
-![Displacement Bad](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/ea6f5038-104f-4b9f-a860-4530fe21ee0b)
+![No85assembly](images/No85assembly.png)
+![No85assembly1](images/No85assembly1.png)
 
 ### Reflection
 
-This analysis is honestly very suprising 
+Using the analysis that the FEA provided, we quickly tested multiple beam designs(Maybe this wasn't what we were supposed to do, but we made multiple beams and then picked the best one). First we started with a basic I-Beam, but decided not to use that one because the stress point was too concentrated on the back of the beam. For a little bit, we tried an X-Beam design, but that design added no benefits and had worse usage of the PLA. Finally, we tested a tapered I-Beam, which seemed to be the best, not only because the stress was spread out, but because the stress point was adjustable. Thanks to FEA simulation, we were able to tune the stress point of the beam. There was something that we were missing, but we didn't notice that until the next assignment(We bonded the beam wrong to the block in the simulation, so that the results were wrong). Actually, the point on the top where the beam connected to the block actually had the most stress on it. In the next iteration, we will put more support on the back so it will distribute the stress more evenly across the face of the block. I was thinking of adding a fillet there and pushing the overall distribution towards the tip to reduce the stress.
 
 ## Media Test
 
