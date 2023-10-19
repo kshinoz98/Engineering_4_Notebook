@@ -215,8 +215,8 @@ For this assignment we began by researching beam theory which taught us about po
 For this part of the assignment we simulated our beam using the onshape simulation to show the deflection and highest stress point.
 ### Evidence
 
-![No85assembly](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/b31ad806-df4d-47d3-8630-4276b2e7420a)
-![No85assembly1](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/3c20a1a1-5155-4274-b6b5-0875704049b4)
+![unnamed](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/542a180e-9d42-4239-a85b-e4b06f4abdd6)
+![unnamed](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/fbcb11cf-45b7-44ce-aa54-1b1e274ed8e1)
 
 ### Reflection
 
