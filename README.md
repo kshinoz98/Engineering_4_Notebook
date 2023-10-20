@@ -218,6 +218,9 @@ For this part of the assignment we simulated our beam using the onshape simulati
 ![unnamed](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/542a180e-9d42-4239-a85b-e4b06f4abdd6)
 ![unnamed](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/fbcb11cf-45b7-44ce-aa54-1b1e274ed8e1)
 
+### Part Link
+[Link](https://cvilleschools.onshape.com/documents/612d3b9286e5a0bfa339152e/w/fc81e668b00e0ee0c54c7765/e/1b5a9ebd9e4c72bcab75b984?renderMode=0&uiState=6532897105d4c23820c1a0fe)
+
 ### Reflection
 
 Using the analysis that the FEA provided, we quickly tested multiple beam designs(Maybe this wasn't what we were supposed to do, but we made multiple beams and then picked the best one). First we started with a basic I-Beam, but decided not to use that one because the stress point was too concentrated on the back of the beam. For a little bit, we tried an X-Beam design, but that design added no benefits and had worse usage of the PLA. Finally, we tested a tapered I-Beam, which seemed to be the best, not only because the stress was spread out, but because the stress point was adjustable. Thanks to FEA simulation, we were able to tune the stress point of the beam. There was something that we were missing, but we didn't notice that until the next assignment(We bonded the beam wrong to the block in the simulation, so that the results were wrong). Actually, the point on the top where the beam connected to the block actually had the most stress on it. In the next iteration, we will put more support on the back so it will distribute the stress more evenly across the face of the block. I was thinking of adding a fillet there and pushing the overall distribution towards the tip to reduce the stress.
@@ -230,6 +233,9 @@ After simulating the beam we had to improve on the design in order to make its d
 
 ![No86assembly](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/eafb1fa1-f656-4444-927c-004c74255cfa)
 ![No 86Assembly1](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/3fc42330-45be-4641-8c73-74b928b2e5d3)
+
+### Part Link
+[Link](https://cvilleschools.onshape.com/documents/612d3b9286e5a0bfa339152e/w/fc81e668b00e0ee0c54c7765/e/ecca6a66a880dc6ea95e75ab?renderMode=0&uiState=6532898b05d4c23820c1a1a3)
 
 ### Reflection
 After our previous beam broke we began working on a new one. We took the old one and changed the distribution of the weight by changing the length and and angles along the first Loft that created the beam. We also changed the hollow part of the beam to instead be two holes going through the Loft which added more strength in the middle and provided less stress. In order to take the stress off the back of the beam we added fillets on the back that supported extra weight. This ultimately distributed the weight more evenly throughtout the beam which reduced the total stress in any area. We also figured out that the simulation was bonded wrong because it had bonded with all faces instead of specific mates. After fixing this problem the simulation began running more smoothly and provided a more accurate anlaysis.
