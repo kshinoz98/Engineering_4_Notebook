@@ -10,6 +10,9 @@
 * [Accelerometer](#Accelerometer)
 * [Accelerometer with LED and Battery](#Accelerometer_with_LED_and_Battery)
 * [Accelerometer with OLED, LED and Battery](#Accelerometer_with_OLED,_LED_and_Battery)
+* [Beam Design](#Beam_Design)
+* [FEA Analysis](#FEA_Analysis)
+* [FEA Iterative Design](#FEA_Iterative_Design)
 
 &nbsp;
 
@@ -129,30 +132,6 @@ Find the orientation of a Pico by using an accelerometer and reading the acceler
 
 &nbsp;
 
-## Accelerometer
-
-### Assignment Description
-
-Find the orientation of a Pico by using an accelerometer and reading the acceleration due to gravity.
-
-### Evidence 
-
-![ezgif-5-b68dc04efc](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/a351c4f9-7247-4c90-8a86-927c183805ff)
-
-### Wiring
-
-![IMG_0902](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/119f78eb-c848-4b0d-8edc-1d7394bee741)
-
-### Code
-
-[Link to code](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/Accelerometer.py)
-
-### Reflection
-
-[I2C](https://www.geeksforgeeks.org/i2c-communication-protocol/) devices are very interesting. Using only two pins, it is possible to communicate with multiple devices, which reduces the complexity of wiring by a factor of how many devices are attached. While this feature is not used in this assignment, I found it really cool when I found out about it, enough to talk about it in the reflection. Looking back on it, I don't think I would be able to figure out the setup code if I was not given it, as I still do not know what the busio does. Also, [F strings](https://www.freecodecamp.org/news/python-f-strings-tutorial-how-to-use-f-strings-for-string-formatting/) are very strange when you're not used to it, but Elias helped me out with them, so I think I know enough to use them in the future.
-
-&nbsp;
-
 ## Accelerometer with LED and Battery
 
 ### Assignment Description
@@ -200,7 +179,7 @@ I think that everybody had problems with finding their i2c devices. I still don'
 
 &nbsp;
 
-## Beam
+## Beam Design
 ### Description
 For this assignment we were challenged to create a beam that could support the most amount of weight that we could. It also included several constraints we needed to follow. For example it needed to be 180 mm long and could not use angles greater than 45 degrees.
 ### Part Link
@@ -210,7 +189,7 @@ For this assignment we were challenged to create a beam that could support the m
 ### Reflection
 For this assignment we began by researching beam theory which taught us about point loads and cantilever beams. Using this knowledge we decided to make an I beam with evenly distributed weight. Because of the rule about angles we decided to use Chamfers on the edges which made the angles the right amount of degrees. We also used a loft so that the weight could be distributed better. We owe a lot of thanks to [this website](https://engineering.stackexchange.com/questions/50258/whats-the-best-shape-solid-of-revolution-for-a-cantilever-beam-to-carry-a-poi) for helping us learn about cantilever beams and showing us that the I beam is the best option.
 
-## FEA part 3
+## FEA Analysis
 ### Description
 For this part of the assignment we simulated our beam using the onshape simulation to show the deflection and highest stress point.
 ### Evidence
@@ -225,7 +204,7 @@ For this part of the assignment we simulated our beam using the onshape simulati
 
 Using the analysis that the FEA provided, we quickly tested multiple beam designs(Maybe this wasn't what we were supposed to do, but we made multiple beams and then picked the best one). First we started with a basic I-Beam, but decided not to use that one because the stress point was too concentrated on the back of the beam. For a little bit, we tried an X-Beam design, but that design added no benefits and had worse usage of the PLA. Finally, we tested a tapered I-Beam, which seemed to be the best, not only because the stress was spread out, but because the stress point was adjustable. Thanks to FEA simulation, we were able to tune the stress point of the beam. There was something that we were missing, but we didn't notice that until the next assignment(We bonded the beam wrong to the block in the simulation, so that the results were wrong). Actually, the point on the top where the beam connected to the block actually had the most stress on it. In the next iteration, we will put more support on the back so it will distribute the stress more evenly across the face of the block. I was thinking of adding a fillet there and pushing the overall distribution towards the tip to reduce the stress.
 
-## FEA part 4
+## FEA Iterative Design
 ### Description
 After simulating the beam we had to improve on the design in order to make its deflection better.
 
