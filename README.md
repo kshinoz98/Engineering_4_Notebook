@@ -52,7 +52,7 @@ Using a Pi pico and the code from launch pad countdown, blink a light every time
 
 ### Code
 
-[Link to code](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/Blink%26Countdown)
+[Link to code](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/Blink%26Countdown.py)
 
 ### Reflection
 
