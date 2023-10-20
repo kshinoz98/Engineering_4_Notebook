@@ -76,7 +76,7 @@ Using a Pi pico and building from the code from the previous assignment, use a b
 
 ### Code
 
-[Link to code](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/BlinkCountdownwithButton)
+[Link to code](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/BlinkCountdownwithButton.py)
 
 ### Reflection
 
