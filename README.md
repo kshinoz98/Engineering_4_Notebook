@@ -16,7 +16,7 @@
 
 &nbsp;
 
-## Launch Pad Countdown
+## Launch_Pad_Countdown
 
 ### Assignment Description
 
@@ -36,7 +36,7 @@ This assignment was very easy, as it was a repeated loop until the count equals 
 
 &nbsp;
 
-## Launch Pad Lights
+## Launch_Pad_Lights
 
 ### Assignment Description
 
@@ -60,7 +60,7 @@ This was a nice refresher on how to wire a LED (220 omh resistor, 5v to GND). I 
 
 &nbsp;
 
-## Launch Pad Lights with Button
+## Launch_Pad_Lights_with_Button
 
 ### Assignment Description
 
@@ -84,7 +84,7 @@ There are so many different ways to do this assignment. I looked at my code, and
 
 &nbsp;
 
-## Launch Pad Lights with Button and Servo 
+## Launch_Pad_Lights_with_Button_and_Servo 
 
 ### Assignment Description
 
@@ -132,7 +132,7 @@ Find the orientation of a Pico by using an accelerometer and reading the acceler
 
 &nbsp;
 
-## Accelerometer with LED and Battery
+## Accelerometer_with_LED_and_Battery
 
 ### Assignment Description
 
@@ -156,7 +156,7 @@ This application of acceleration due to gravity is very neat, because it is not 
 
 &nbsp;
 
-## Accelerometer with OLED, LED and Battery
+## Accelerometer_with_OLED,_LED_and_Battery
 
 ### Assignment Description
 
@@ -179,7 +179,7 @@ I think that everybody had problems with finding their i2c devices. I still don'
 
 &nbsp;
 
-## Beam Design
+## Beam_Design
 ### Description
 For this assignment we were challenged to create a beam that could support the most amount of weight that we could. It also included several constraints we needed to follow. For example it needed to be 180 mm long and could not use angles greater than 45 degrees.
 ### Part Link
@@ -189,7 +189,7 @@ For this assignment we were challenged to create a beam that could support the m
 ### Reflection
 For this assignment we began by researching beam theory which taught us about point loads and cantilever beams. Using this knowledge we decided to make an I beam with evenly distributed weight. Because of the rule about angles we decided to use Chamfers on the edges which made the angles the right amount of degrees. We also used a loft so that the weight could be distributed better. We owe a lot of thanks to [this website](https://engineering.stackexchange.com/questions/50258/whats-the-best-shape-solid-of-revolution-for-a-cantilever-beam-to-carry-a-poi) for helping us learn about cantilever beams and showing us that the I beam is the best option.
 
-## FEA Analysis
+## FEA_Analysis
 ### Description
 For this part of the assignment we simulated our beam using the onshape simulation to show the deflection and highest stress point.
 ### Evidence
@@ -204,7 +204,7 @@ For this part of the assignment we simulated our beam using the onshape simulati
 
 Using the analysis that the FEA provided, we quickly tested multiple beam designs(Maybe this wasn't what we were supposed to do, but we made multiple beams and then picked the best one). First we started with a basic I-Beam, but decided not to use that one because the stress point was too concentrated on the back of the beam. For a little bit, we tried an X-Beam design, but that design added no benefits and had worse usage of the PLA. Finally, we tested a tapered I-Beam, which seemed to be the best, not only because the stress was spread out, but because the stress point was adjustable. Thanks to FEA simulation, we were able to tune the stress point of the beam. There was something that we were missing, but we didn't notice that until the next assignment(We bonded the beam wrong to the block in the simulation, so that the results were wrong). Actually, the point on the top where the beam connected to the block actually had the most stress on it. In the next iteration, we will put more support on the back so it will distribute the stress more evenly across the face of the block. I was thinking of adding a fillet there and pushing the overall distribution towards the tip to reduce the stress.
 
-## FEA Iterative Design
+## FEA_Iterative_Design
 ### Description
 After simulating the beam we had to improve on the design in order to make its deflection better.
 
