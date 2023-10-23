@@ -9,7 +9,7 @@ i2c = busio.I2C(scl_pin,sda_pin)
 mpu = adafruit_mpu6050.MPU6050(i2c)
 
 while True:                                 #[11-15] Print necessary aspects of acceleration
-    print(f"x={mpu.acceleration[0]}.")          
+    print(f"x={mpu.acceleration[0]}.")    
     print(f"y={mpu.acceleration[1]}.")
     print(f"z={mpu.acceleration[2]}.\n")
     time.sleep(.25)
