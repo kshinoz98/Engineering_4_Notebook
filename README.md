@@ -219,6 +219,27 @@ After simulating the beam we had to improve on the design in order to make its d
 ### Reflection
 After our previous beam broke we began working on a new one. We took the old one and changed the distribution of the weight by changing the length and and angles along the first Loft that created the beam. We also changed the hollow part of the beam to instead be two holes going through the Loft which added more strength in the middle and provided less stress. In order to take the stress off the back of the beam we added fillets on the back that supported extra weight. This ultimately distributed the weight more evenly throughtout the beam which reduced the total stress in any area. We also figured out that the simulation was bonded wrong because it had bonded with all faces instead of specific mates. After fixing this problem the simulation began running more smoothly and provided a more accurate anlaysis.
 
+## Landing Area
+
+### Assignment Description
+
+Using circuitpython, calculate the area of a triangle using inputted coordinates.
+
+### Evidence 
+
+
+
+### Code
+
+[Link to code](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/AccelerationLedwithOLED.py)
+
+### Reflection
+
+
+
+&nbsp;
+
+
 ## Media Test
 
 Your readme will have various images and gifs on it. Upload a test image and test gif to make sure you've got the process figured out. Pick whatever image and gif you want!
