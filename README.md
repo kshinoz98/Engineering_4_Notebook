@@ -185,7 +185,9 @@ For this assignment we were challenged to create a beam that could support the m
 ### Part Link
 [Link](https://cvilleschools.onshape.com/documents/612d3b9286e5a0bfa339152e/w/fc81e668b00e0ee0c54c7765/e/e5900d19b5ba4f1918d7debd)
 ### Part Image
-![No.3.png](images/No.3.png)
+
+![No 3](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/1bf67759-f2e8-4b14-afb0-0776d7bd3a5d)
+
 ### Reflection
 For this assignment we began by researching beam theory which taught us about point loads and cantilever beams. Using this knowledge we decided to make an I beam with evenly distributed weight. Because of the rule about angles we decided to use Chamfers on the edges which made the angles the right amount of degrees. We also used a loft so that the weight could be distributed better. We owe a lot of thanks to [this website](https://engineering.stackexchange.com/questions/50258/whats-the-best-shape-solid-of-revolution-for-a-cantilever-beam-to-carry-a-poi) for helping us learn about cantilever beams and showing us that the I beam is the best option.
 
