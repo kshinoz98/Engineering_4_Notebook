@@ -221,6 +221,25 @@ After simulating the beam we had to improve on the design in order to make its d
 ### Reflection
 After our previous beam broke we began working on a new one. We took the old one and changed the distribution of the weight by changing the length and and angles along the first Loft that created the beam. We also changed the hollow part of the beam to instead be two holes going through the Loft which added more strength in the middle and provided less stress. In order to take the stress off the back of the beam we added fillets on the back that supported extra weight. This ultimately distributed the weight more evenly throughtout the beam which reduced the total stress in any area. We also figured out that the simulation was bonded wrong because it had bonded with all faces instead of specific mates. After fixing this problem the simulation began running more smoothly and provided a more accurate anlaysis.
 
+## Triangle_Area_Calculator
+
+### Assignment Description
+
+Find the area of a triangle from coordinates using user input, split() and try() functions, and creating custom functions. 
+
+### Evidence 
+
+![ezgif-3-99471a8625](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/56cb2db7-8cc9-4e07-89ca-aa37540d3b7f)
+
+### Code
+
+[Link to code](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/TriangleAreaFinder.py)
+
+### Reflection
+
+This was the most code-heavy assignment so far, and it was honestly quite the wakeup from the other assignments, where we were just using code to control a physical device. The reference pages that Mr. Miller provided on [this website](https://www.w3schools.com/) helped a lot. Specifically, it helped to see example code of the function in use, it was kinda like 
+
+&nbsp;
 
 ## Media Test
 
