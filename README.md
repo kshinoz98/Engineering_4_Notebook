@@ -237,7 +237,7 @@ Find the area of a triangle from coordinates using user input, split() and try()
 
 ### Reflection
 
-This was the most code-heavy assignment so far, and it was honestly quite the wakeup from the other assignments, where we were just using code to control a physical device. The reference pages that Mr. Miller provided on [this website](https://www.w3schools.com/) helped a lot. Specifically, it helped to see example code of the function in use, it was kinda like 
+This was the most code-heavy assignment so far, and it was honestly quite the wakeup from the other assignments, where we were just using code to control a physical device. The reference pages that Mr. Miller provided on [this website](https://www.w3schools.com/) helped a lot. Specifically, it helped to see example code of the function in use, it was kinda like copying off of somebody who was very, very good at code and knew exactly what the functions would do (somebody like River). Also, I've always wanted to be able to do user input, and now I know how ([In case I forget](https://www.w3schools.com/python/ref_func_input.asp)).
 
 &nbsp;
 
