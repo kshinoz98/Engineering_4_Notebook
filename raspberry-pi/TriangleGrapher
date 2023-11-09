@@ -1,4 +1,5 @@
-import time                                             #[1-10] Import necessary libraries and clear the pins for the display
+#type:ignore
+import time                                             #[2-11] Import necessary libraries and clear the pins for the display
 import board
 import busio
 import displayio
@@ -9,14 +10,14 @@ from adafruit_display_shapes.line import Line
 from adafruit_display_shapes.circle import Circle
 from adafruit_display_text import label
 
-displayio.release_displays()                            #[12-17] Set up OLED Display
+displayio.release_displays()                            #[13-18] Set up OLED Display
 sda_pin = board.GP14                                    
 scl_pin = board.GP15
 i2c = busio.I2C(scl_pin, sda_pin) 
 display_bus = displayio.I2CDisplay(i2c, device_address = 0x3d, reset = board.GP0) 
 display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=128, height=64)
 
-def calcandgraphtri(x1,y1,x2,y2,x3,y3):                 #[19-36] Create a function which calculates the area of a triangle from three coords and graphs it.
+def calcandgraphtri(x1,y1,x2,y2,x3,y3):                 #[20-37] Create a function which calculates the area of a triangle from three coords and graphs it.
     try:
         area = abs((x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2))*.5)
         splash = displayio.Group()
@@ -35,7 +36,7 @@ def calcandgraphtri(x1,y1,x2,y2,x3,y3):                 #[19-36] Create a functi
     except:
         print("These points are invalid, try again")
 
-while True:                                             #[38-46] Take user-inputted points and split them into an array then define them as points
+while True:                                             #[39-47] Take user-inputted points and split them into an array then define them as points
     INPUTT = input("Enter your points in form x1,y1,x2,y2,x3,y3:")
     PUTT = INPUTT.split(",")
     x1 = float(PUTT[0])
@@ -45,7 +46,7 @@ while True:                                             #[38-46] Take user-input
     x3 = float(PUTT[4])
     y3 = float(PUTT[5])
     areaA = calcandgraphtri(x1,y1,x2,y2,x3,y3)         #Run the previosly defined function to calculate the area and graph it on an OLED
-    if areaA == 0:                                     #[48-51] Print the results on the serial moniter, if the triangle doesn't exist then restart the while tru loop
+    if areaA == 0:                                     #[49-52] Print the results on the serial moniter, if the triangle doesn't exist then restart the while tru loop
         continue
     else:
         print(f"The area of the triangle with vertices ({x1},{y1}), ({x2},{y2}), ({x3},{y3}) is {areaA} square km.")
