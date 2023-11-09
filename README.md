@@ -241,6 +241,31 @@ This was the most code-heavy assignment so far, and it was honestly quite the wa
 
 &nbsp;
 
+## Triangle_Grapher
+
+### Assignment Description
+
+Using user-inputted coordinates, calculate the area of a triangle and graph the triangle on an OLED
+
+### Evidence 
+
+![GIFORGOTHUB1](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/1a4851ab-6406-443f-baca-50d97508aaf2)
+
+
+### Wiring
+
+
+
+### Code
+
+[Link to code](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/TriangleGrapher.py)
+
+### Reflection
+
+
+
+&nbsp;
+
 ## Media Test
 
 Your readme will have various images and gifs on it. Upload a test image and test gif to make sure you've got the process figured out. Pick whatever image and gif you want!
