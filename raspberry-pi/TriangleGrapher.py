@@ -17,7 +17,7 @@ i2c = busio.I2C(scl_pin, sda_pin)
 display_bus = displayio.I2CDisplay(i2c, device_address = 0x3d, reset = board.GP0) 
 display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=128, height=64)
 
-def calcandgraphtri(x1,y1,x2,y2,x3,y3):                 #[20-37] Create a function which calculates the area of a triangle from three coords and graphs it.
+def calcandgraphtri(x1,y1,x2,y2,x3,y3):                 #[20-39] Create a function which calculates the area of a triangle from three coords and graphs it.
     try:
         area = abs((x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2))*.5)
         splash = displayio.Group()
@@ -28,6 +28,8 @@ def calcandgraphtri(x1,y1,x2,y2,x3,y3):                 #[20-37] Create a functi
         splash.append(vline)
         triangle = Triangle(int(x1+64), int(-y1+32), int(x2+64), int(-y2+32), int(x3+64), int(-y3+32), outline=0xFFFF00)
         splash.append(triangle)
+        circle = Circle(64, 32, 3, outline=0xFFFF00)
+        splash.append(circle)  
         title = f"Area: {area}"
         text_area = label.Label(terminalio.FONT, text = title, color = 0xFFFF00, x = 5, y= 5)
         splash.append(text_area)
@@ -36,7 +38,7 @@ def calcandgraphtri(x1,y1,x2,y2,x3,y3):                 #[20-37] Create a functi
     except:
         print("These points are invalid, try again")
 
-while True:                                             #[39-47] Take user-inputted points and split them into an array then define them as points
+while True:                                             #[41-49] Take user-inputted points and split them into an array then define them as points
     INPUTT = input("Enter your points in form x1,y1,x2,y2,x3,y3:")
     PUTT = INPUTT.split(",")
     x1 = float(PUTT[0])
@@ -46,7 +48,7 @@ while True:                                             #[39-47] Take user-input
     x3 = float(PUTT[4])
     y3 = float(PUTT[5])
     areaA = calcandgraphtri(x1,y1,x2,y2,x3,y3)         #Run the previosly defined function to calculate the area and graph it on an OLED
-    if areaA == 0:                                     #[49-52] Print the results on the serial moniter, if the triangle doesn't exist then restart the while tru loop
+    if areaA == 0:                                     #[51-54] Print the results on the serial moniter, if the triangle doesn't exist then restart the while true loop
         continue
     else:
         print(f"The area of the triangle with vertices ({x1},{y1}), ({x2},{y2}), ({x3},{y3}) is {areaA} square km.")
