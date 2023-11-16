@@ -254,7 +254,7 @@ Using user-inputted coordinates, calculate the area of a triangle and graph the 
 
 ### Wiring
 
-
+![wiring](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/8458be87-100e-4125-8b85-7f915ecccab7)
 
 ### Code
 
@@ -262,7 +262,7 @@ Using user-inputted coordinates, calculate the area of a triangle and graph the 
 
 ### Reflection
 
-The most important with graphing shapes on an OLED is to remember to add
+The most important with graphing shapes on an OLED is to remember to add all of the things which I don't know what they d0, but it makes the OLED work somehow. Mostly I just copied the setup from [the other OLED assignment](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/AccelerationLedwithOLED.py),  and then took the code for the shapes from the [assignment description](https://docs.google.com/document/d/1KCBRdXvBH3f9Y_2-jsDIqE5rnnvT4tHXzIdyI31n-_Q/edit). Also, if you notice, in my video I had a lot more hardware than what was on the wiring diagram. This is because I saved the wiring from the previous OLED assignment, something that saved me a ton of time, instead of having to rewire another accelerometer.
 
 &nbsp;
 
@@ -282,7 +282,7 @@ Translate a user inputted message into morse code using a python dictionary.
 
 ### Reflection
 
-I am not a person who does code for fun or onmy own time at all, so I have a limited knowledge on a lot of the functions and customs. 
+I am not a person who does code for fun or onmy own time at all, so I have a limited knowledge on a lot of the functions and customs. However.
 
 ## Morse_Code_Translator_With_Light
 
