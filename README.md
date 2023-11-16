@@ -282,6 +282,8 @@ Translate a user inputted message into morse code using a python dictionary.
 
 ### Reflection
 
+I am not a person who does code for fun or onmy own time at all, so I have a limited knowledge on a lot of the functions and customs. 
+
 ## Morse_Code_Translator_With_Light
 
 ### Assignment Description
