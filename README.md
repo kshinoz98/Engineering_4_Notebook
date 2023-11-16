@@ -274,7 +274,7 @@ Translate a user inputted message into morse code using a python dictionary.
 
 ### Evidence 
 
-
+![My Gif 3](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/6eb7b63d-e060-41ee-8a8d-22156b2feb85)
 
 ### Code
 
