@@ -262,6 +262,49 @@ Using user-inputted coordinates, calculate the area of a triangle and graph the 
 
 ### Reflection
 
+The most important with graphing shapes on an OLED is to remember to add
+
+&nbsp;
+
+## Morse_Code_Translator
+
+### Assignment Description
+
+Translate a user inputted message into morse code using a python dictionary.
+
+### Evidence 
+
+
+
+### Code
+
+[Link to code](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/MorseCode1.py)
+
+### Reflection
+
+## Morse_Code_Translator_With_Light
+
+### Assignment Description
+
+Translate a user inputted message into morse code using a python dictionary, and print out the message in morse code with a LED
+
+### Evidence 
+
+![ezgif-4-060610b18b](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/a3fb0877-0573-4b41-8796-445f980b865b)
+
+### Wiring
+
+
+
+### Code
+
+[Link to code](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/MorseCode2.py)
+
+### Reflection
+
+The most important with graphing shapes on an OLED is to remember to add
+
+&nbsp;
 
 
 &nbsp;
