@@ -8,12 +8,23 @@ sda_pin = board.GP14                        #[7-12] Set up accelerometer, LED, S
 scl_pin = board.GP15
 i2c = busio.I2C(scl_pin,sda_pin)
 mpu = adafruit_mpu6050.MPU6050(i2c)
-led = digitalio.DigitalInOut(board.GP0)
+led = digitalio.DigitalInOut(board.GP2)
 led.direction = digitalio.Direction.OUTPUT
 
-while True:                                 #[14-17] If the accelerometer is tilted more than 90 degrees, turn the light on
-    if mpu.acceleration[2] < 1:      
-        led.value = True
-        time.sleep(.25)
-    else:                                   #[18-19] If the accelerometer is not tilted more than 90 degrees, turn the light off
-        led.value = False
+with open("/data.csv", "a") as datalog:
+    while True:
+            t = time.monotonic()
+            x_accel = mpu.acceleration[0]
+            y_accel = mpu.acceleration[1]
+            z_accel = mpu.acceleration[2]
+            if z_accel < .5:
+                led = True      
+                tilt = "Tilted"
+            else:
+                led = False
+                tilt = "Untilted"
+            datalog.write(f"{t},{x_accel},{y_accel},{z_accel},{tilt}\n")
+            led = True
+            datalog.flush()
+            time.sleep(0.25)
+            led = False
