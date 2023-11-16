@@ -282,7 +282,7 @@ Translate a user inputted message into morse code using a python dictionary.
 
 ### Reflection
 
-I am not a person who does code for fun or onmy own time at all, so I have a limited knowledge on a lot of the functions and customs. However.
+I am not a person who does code for fun or on my own time at all, so I have a limited knowledge on a lot of the functions and customs. For that reason, my code often looks horrible to anybody with any code experience. One function that I realized was very important in this assignment was the [for() loop](https://www.w3schools.com/python/python_for_loops.asp), as it can make code more adapable, and simply having the ability to loop a function a specific amount of times is so helpful. [Dictionaries](https://www.w3schools.com/python/python_dictionaries.asp) are also very vesatile, and I really want to use them in the future, as they are straightforward to use.
 
 ## Morse_Code_Translator_With_Light
 
@@ -296,7 +296,7 @@ Translate a user inputted message into morse code using a python dictionary, and
 
 ### Wiring
 
-
+![Screenshot 2023-11-16 12 26 13 PM](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/99fee21c-f2e2-4946-9322-3dc0191e5eca)
 
 ### Code
 
@@ -304,7 +304,7 @@ Translate a user inputted message into morse code using a python dictionary, and
 
 ### Reflection
 
-The most important with graphing shapes on an OLED is to remember to add
+[for() loops](https://www.w3schools.com/python/python_for_loops.asp) saved me in this assignment. Though the example used for() loops in a slightly different way, I figured that simply nesting two for() loops, one to translate the message into morse code and one to print out the individual blinks, would be easiest. Aside from that, I had a little trouble with the timing between two morse words, because the example defined the timing a bit differently. Also, for some reason, I had a hard time with the LED, so in the future I should actually check which pin the LED is connected to instead of just guessing.
 
 &nbsp;
 
