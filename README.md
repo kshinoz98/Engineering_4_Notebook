@@ -308,6 +308,27 @@ Translate a user inputted message into morse code using a python dictionary, and
 
 &nbsp;
 
+## Data Storage
+
+### Assignment Description
+
+Find the acceration of a headless pico by using an accelerometer and store it on the pico.
+
+### Evidence 
+
+![ezgif-4-5c463fdf5f](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/491e422f-90e9-4133-b0c9-36b0fbdfb86b)
+
+### Wiring
+
+![IMG_20230925_103003](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/03de6a68-97df-404b-8b34-931023a8fed5)
+
+### Code
+
+[Link to code](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/AccelerometerwithLED.py)
+
+### Reflection
+
+
 
 &nbsp;
 
