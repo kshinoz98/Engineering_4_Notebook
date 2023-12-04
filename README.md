@@ -254,7 +254,7 @@ Using user-inputted coordinates, calculate the area of a triangle and graph the 
 
 ### Wiring
 
-
+![wiring](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/8458be87-100e-4125-8b85-7f915ecccab7)
 
 ### Code
 
@@ -262,7 +262,7 @@ Using user-inputted coordinates, calculate the area of a triangle and graph the 
 
 ### Reflection
 
-The most important with graphing shapes on an OLED is to remember to add
+The most important with graphing shapes on an OLED is to remember to add all of the things which I don't know what they d0, but it makes the OLED work somehow. Mostly I just copied the setup from [the other OLED assignment](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/AccelerationLedwithOLED.py),  and then took the code for the shapes from the [assignment description](https://docs.google.com/document/d/1KCBRdXvBH3f9Y_2-jsDIqE5rnnvT4tHXzIdyI31n-_Q/edit). Also, if you notice, in my video I had a lot more hardware than what was on the wiring diagram. This is because I saved the wiring from the previous OLED assignment, something that saved me a ton of time, instead of having to rewire another accelerometer.
 
 &nbsp;
 
@@ -274,13 +274,15 @@ Translate a user inputted message into morse code using a python dictionary.
 
 ### Evidence 
 
-
+![My Gif 3](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/6eb7b63d-e060-41ee-8a8d-22156b2feb85)
 
 ### Code
 
 [Link to code](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/MorseCode1.py)
 
 ### Reflection
+
+I am not a person who does code for fun or on my own time at all, so I have a limited knowledge on a lot of the functions and customs. For that reason, my code often looks horrible to anybody with any code experience. One function that I realized was very important in this assignment was the [for() loop](https://www.w3schools.com/python/python_for_loops.asp), as it can make code more adapable, and simply having the ability to loop a function a specific amount of times is so helpful. [Dictionaries](https://www.w3schools.com/python/python_dictionaries.asp) are also very vesatile, and I really want to use them in the future, as they are straightforward to use.
 
 ## Morse_Code_Translator_With_Light
 
@@ -294,7 +296,7 @@ Translate a user inputted message into morse code using a python dictionary, and
 
 ### Wiring
 
-
+![Screenshot 2023-11-16 12 26 13 PM](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/99fee21c-f2e2-4946-9322-3dc0191e5eca)
 
 ### Code
 
@@ -302,9 +304,30 @@ Translate a user inputted message into morse code using a python dictionary, and
 
 ### Reflection
 
-The most important with graphing shapes on an OLED is to remember to add
+[for() loops](https://www.w3schools.com/python/python_for_loops.asp) saved me in this assignment. Though the example used for() loops in a slightly different way, I figured that simply nesting two for() loops, one to translate the message into morse code and one to print out the individual blinks, would be easiest. Aside from that, I had a little trouble with the timing between two morse words, because the example defined the timing a bit differently. Also, for some reason, I had a hard time with the LED, so in the future I should actually check which pin the LED is connected to instead of just guessing.
 
 &nbsp;
+
+## Data Storage
+
+### Assignment Description
+
+Find the acceration of a headless pico by using an accelerometer and store it on the pico.
+
+### Evidence 
+
+![ezgif-4-5c463fdf5f](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/491e422f-90e9-4133-b0c9-36b0fbdfb86b)
+
+### Wiring
+
+![IMG_20230925_103003](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/03de6a68-97df-404b-8b34-931023a8fed5)
+
+### Code
+
+[Link to code](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/AccelerometerwithLED.py)
+
+### Reflection
+
 
 
 &nbsp;
