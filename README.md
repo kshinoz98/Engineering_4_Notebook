@@ -324,11 +324,15 @@ Find the acceration of a headless pico by using an accelerometer and store it on
 
 ### Code
 
-[Link to code](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/AccelerometerwithLED.py)
+[Link to code](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/raspberry-pi/DataStorage.py)
+
+### Data
+
+[Link to data](https://docs.google.com/spreadsheets/d/1lQYRQrsDPB1jyElYCmkRGSjrqW118ioUyzddmLKBiKo/edit?usp=sharing)
 
 ### Reflection
 
-
+I have always wondered how to record data on a pico, as nerdy as that sounds. It's actually pretty straightforward
 
 &nbsp;
 
