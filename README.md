@@ -332,7 +332,7 @@ Find the acceration of a headless pico by using an accelerometer and store it on
 
 ### Reflection
 
-I have always wondered how to record data on a pico, as nerdy as that sounds. It's actually pretty straightforward
+I have always wondered how to record data on a pico, as nerdy as that sounds. It's actually pretty straightforward, but REMEMBER WHICH FLASHES INDICATE WHICH MODE. I had a really hard time switching between the two modes because I didn't really know which one was code mode and which one was data mode. The boot.py file is [here](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/boot.py) for future reference, but I needed to copy this onto the pico. The [with() command](https://www.geeksforgeeks.org/with-statement-in-python/) is cool, and I want to use this in the future. Also, my board kept wiping itself, but I never found out what caused that. 
 
 &nbsp;
 
