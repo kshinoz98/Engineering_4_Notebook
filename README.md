@@ -312,7 +312,7 @@ Translate a user inputted message into morse code using a python dictionary, and
 
 ### Assignment Description
 
-Find the acceration of a headless pico by using an accelerometer and store it on the pico.
+Find the acceleration of a headless pico by using an accelerometer and store it on the pico.
 
 ### Evidence 
 
@@ -333,6 +333,24 @@ Find the acceration of a headless pico by using an accelerometer and store it on
 ### Reflection
 
 I have always wondered how to record data on a pico, as nerdy as that sounds. It's actually pretty straightforward, but REMEMBER WHICH FLASHES INDICATE WHICH MODE. I had a really hard time switching between the two modes because I didn't really know which one was code mode and which one was data mode. The boot.py file is [here](https://github.com/kshinoz98/Engineering_4_Notebook/blob/main/boot.py) for future reference, but I needed to copy this onto the pico. The [with() command](https://www.geeksforgeeks.org/with-statement-in-python/) is cool, and I want to use this in the future. Also, my board kept wiping itself, but I never found out what caused that. 
+
+## Data Analysis
+
+### Assignment Description
+
+Analyze the data collected in Data Storage 
+
+### Evidence 
+
+[Data for Storage - Sheet1.pdf](https://github.com/kshinoz98/Engineering_4_Notebook/files/13615979/Data.for.Storage.-.Sheet1.pdf)
+
+### Data
+
+[Link to data](https://docs.google.com/spreadsheets/d/1lQYRQrsDPB1jyElYCmkRGSjrqW118ioUyzddmLKBiKo/edit?usp=sharing)
+
+### Reflection
+
+
 
 &nbsp;
 
