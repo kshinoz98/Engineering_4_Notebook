@@ -342,7 +342,7 @@ Analyze the data collected in Data Storage
 
 ### Evidence 
 
-[Data for Storage - Sheet1.pdf](https://github.com/kshinoz98/Engineering_4_Notebook/files/13615979/Data.for.Storage.-.Sheet1.pdf)
+![Sniiiiiiiipy](https://github.com/kshinoz98/Engineering_4_Notebook/assets/113209502/40ed0483-335c-4a15-8cbe-bf4948d90f9a)
 
 ### Data
 
@@ -350,6 +350,7 @@ Analyze the data collected in Data Storage
 
 ### Reflection
 
+Google Sheets are very easy to use, and also very powerful. Seeing the data in this way makes it possible to analyse it and makes it actually useful to collect data. It was also very easy to create a chart(select the collumns and then click create chart). In the future, I want to more analysis of the data we collect to optimize the flight, possibly using some more [complicated](https://www.indeed.com/career-advice/career-development/analyzing-data) theories or programs to analyse the data.
 
 
 &nbsp;
